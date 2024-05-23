@@ -1,0 +1,181 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+:root{
+    --primary-color: #ffffff ;
+    --border: 2px solid #000;
+    --text-color: #ff0000;
+}
+/*-------about dcj canteen---------*/
+.about-dcj{
+  border: var(--border);
+  width: 100%;
+  height: 350px;
+}
+
+.about-dcj h1{
+  display: inline-flex;
+  margin: 50px 80px 0px;
+  color: #000000; 
+}
+
+.about-dcj h1::before{
+  content: "";
+  background: #000;
+  width: 92px;
+  height: 3px;
+  border-radius: 50px;
+  position: absolute;
+  top: 140px;
+  transition: width 0.5s ease;
+  
+}
+
+/* .about-dcj h1:hover::before{
+  width: 95px;
+  background: #000000;
+} */
+
+.canteen-description{
+  /* border: var(--border); */
+  display: flex;
+  margin: 20px 80px 0px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+/*-----------noodles-img-----------*/
+.aboutUs-container{
+    /* border: var(--border); */
+    background-color: #1a211a;
+    width: 100%;
+    height: 700px;
+    display: flex; 
+    
+    
+  }
+  .aboutUs-container-img {
+    width: 50%;
+    height: 600px;
+    margin: 50px 50px 50px 50px;
+    overflow: hidden;
+    position: relative;
+    margin: 50px 0px 50px 50px;
+    border-radius: 5px;
+  }
+  
+  .aboutUs-img {
+    display: flex;
+    animation: slide-animation 10s infinite;
+  }
+  
+  .slide {
+    min-width: 100%;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+  
+  @keyframes slide-animation {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0); }
+    30% { transform: translateX(-100%); }
+    55% { transform: translateX(-100%); }
+    60% { transform: translateX(-200%); }
+    85% { transform: translateX(-200%); }
+    90% { transform: translateX(-300%); }
+    100% { transform: translateX(-300%); }
+  }
+
+
+  .aboutUs-text{
+    /* border: 2px solid white; */
+    height: 600px;
+    width: 50%;
+    color: #fff;
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .aboutUs-link{
+    /* border: 1px solid white; */
+    background-color: #fff;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 20px;
+  }
+
+  .aboutUs-link a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+
+  .aboutUs-heading{
+    /* border: 2px solid white; */
+    font-size: 38px;
+    font-weight: lighter;
+    word-spacing: 3px;
+    margin-top: 15px;
+
+  }
+
+  .aboutUs-content{
+    /* border: 2px solid white; */
+    margin-top: 15px;
+    word-spacing: 4px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  /*-------ourVision-ourMission------------*/
+
+  .about-our{
+    border: var(--border);
+    height: 400px;
+    width: 100%;
+    display: flex;
+  }
+  .our-mission{
+    width: 50%;
+    height: 100%;
+  }
+  .our-vision{
+    width: 50%;
+    height: 100%;
+  }
+  
+  .about-our h2{
+    /* border: var(--border); */
+    display: inline-flex;
+    margin: 50px 80px 0px;  
+  }
+  .about-our h2::before{
+    content: "";
+    background: #000000;
+    width: 45px;
+    height: 2px;
+    border-radius: 50px;
+    position: absolute;
+    top: 1185px;
+  }  
+
+  .our-text{
+    /* border: var(--border); */
+    line-height: 30px;
+    margin: 10px 80px 0px;
+  }

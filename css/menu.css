@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+.heading-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.logo-name-heading{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo-name-heading p{
+font-size: 35px;
+text-align: center;
+margin-left: 25px;
+}
+.logo-name-heading img{
+  height: 80px;
+}
+
+.search-box input{
+border: 2px solid red;
+width: 500px;
+height: 45px;
+border-radius: 20px;
+padding-left: 15px;
+
+}
+.h{
+width: 80%;
+height: 2px;
+border: 0 none;
+margin-left: 170px;
+background-color: red;
+}
+
+/*-----------------main-box--------------------*/
+
+.menu-main-box{
+    /* border: 4px solid green; */
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px 9%;
+}
+
+  .outer-box{
+    border: 2px solid #cdc8c8;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 250px;
+    margin: 30px 90px;
+    transition: 0.5s ease-out;
+  }
+
+  .outer-box:hover{
+    transform: scale(1.05);
+    border: 2px solid #ff0000;
+    
+  }
+
+  .product-img{
+    /* border: var(--border); */
+    /* background-image: url("D:\loginImg.jpg"); */
+    height: 250px;
+    width: 235px;
+    margin: 6px;
+    border-radius: 3px;
+    background-size: cover;
+  }
+
+
+  .product-detail{
+    /* border: var(--border); */
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+  }
+
+  .inner-detail{
+    /* border: var(--border); */
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .product-counter button {
+    font-size: 15px;
+    padding: 5px 12px;
+    border: 1px solid red;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .product-counter i{
+    color: var(--text-color);
+  }
+  .product-name p{
+    /* border: var(--border); */
+    padding: 5px 0px;
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-price{
+    /* border: var(--border); */
+    padding: 2px;
+    margin-left: 8px;
+    font-size: 20px;
+  
+  }
+  
+  .last{
+    /* border: var(--border); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .product-counter{
+    margin-right: 10px;
+    
+  }
+
