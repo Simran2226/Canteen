@@ -1,2 +1,2 @@
 # Canteen
-Online Canteen
+DCJ Canteen
